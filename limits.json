@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "about": "Moonlight fleet limits: the most each instance other than luna spends on strategies that trade the same thin books luna does. Each instance fetches this once a day and LOWERS its own live caps to these numbers (never raises). Keys are Moonlight setting keys in dollars; per-book keys apply to the live book only. Edit, commit, then run scripts/fleet-limits.ts in the Moonlight repo to check it. Docs: docs/FLEET-LIMITS.md.",
+  "updated": "2026-10-18",
+  "exempt": ["luna"],
+  "default": {
+    "strategy_overset_daily_usd": 20,
+    "strategy_setfair_daily_usd": 50,
+    "strategy_setrest_daily_usd": 50,
+    "strategy_setlead_daily_usd": 50,
+    "strategy_warmup_daily_usd": 10,
+    "strategy_flashdance_daily_usd": 50,
+    "strategy_cycleb_daily_usd": 3,
+    "strategy_oopsy_daily_usd": 50,
+    "strategy_octagon_daily_usd": 25,
+    "strategy_halfback_daily_usd": 50,
+    "strategy_fullback_daily_usd": 50,
+    "strategy_farback_daily_usd": 25,
+    "strategy_cs2fav_daily_usd": 50,
+    "strategy_chalk_daily_usd": 50,
+    "strategy_chalk_lone_daily_usd": 50,
+    "strategy_sideline_exposure_usd": 30,
+    "strategy_incentive_exposure_usd": 25
+  },
+  "instances": {
+    "sprig": {}
+  }
+}
